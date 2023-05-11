@@ -1,0 +1,416 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- This is a comment line which won't be rendered by any HTML browser -->
+
+
+<style>
+
+.title {
+  background-color: #009439;
+  color: black;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 32px;
+}
+
+.sectionheading {
+  background-color: #fff766;
+  color: black;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+.collapsible {
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+  
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #fff766;
+}
+</style>
+
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="title"> Aston Evans</div>
+
+<div class="sectionheading"> Requirements of this Part</div>
+<button class="collapsible">Click here to understand the requirements</button>
+
+<div class="content">
+	<ol>
+		<li>You can use any text editor to edit this file. Notepad comes with Windows. Or notepad++ can be downloaded!</li>
+    
+		<li>Remove irrelevant content from this page and add your own questions and answers!</li>
+	
+		<li>Don't be afraid of experimenting and breaking the code . You can always re-download this file and start over! </li>
+	</ol>  
+
+</div>
+
+
+<div class="sectionheading"> Concepts</div>
+
+<button class="collapsible"> 1. Name two differences between netlify and back4APP, and provide 3 alternatives and competitors to them.</button>
+<div class="content">
+  <p>
+First difference: The purpose of both sites are completely different in the sense that netlify focuses on hosting static sites for developers that prefer using other static site generators. back4APP purpose is to provide assistance on the backend side of programming, so that programmers do not have to create servers. 
+ </p>
+  <p>
+    Second Difference: Netlify does not have a built in database to assist programmers, it instead forces them to focus to use outside services to store data. Back4APP however provides a database as well as supports other databases to be used without forcing programmers to use outside sources. 
+  </p>
+<p>
+  Competitors: Vercel and Firebase, Heroku
+</p>
+</div>
+
+<button class="collapsible">2. Briefly compare json, xml, yaml (“ YAML   Ain’t   Markup   Language”), and markdown. </button>
+<div class="content">
+  <p> 
+  They all work together cohesively to create an efficient and effective program. JSON and XML interchange and store data. YAML provides an easy syntax to explain the JSON and XML code that was the programmer. Markdown is primarily used to document the program. With these four essential tasks, a program would run effectively and be able to be understood from the outside looking in.  </p>
+</div>
+
+
+<button class="collapsible">3. Name two js libraries and two js framework respectively.  </button>
+<div class="content">
+ <p>JavaScript Libraries: jQuery and Lodash  </p>
+  <p>JavaScript Frameworks: Bootstrap and Angular </p>
+</div>
+
+  <button class="collapsible">4.Name 4 major differences between angular  vs. react 
+  </button>
+<div class="content">
+  <p>First Difference: The learning curve between the two is very different due to Angular having much more features that the average programmer would not be able to pick up upon the first grasp. React tends to cater to the beginner side of programming. </p>
+  <p>Second Difference: They use different syntaxes, Angular uses TypeScript while React mainly uses JavaScript.</p>
+  <p>Third Difference: React focuses much more on the creation on user interfaces with the use of the premade functions within the library. Angular focuses more on the implementation of the user interfaces in a grander scale of a program and uses features that React is not really capable of.  </p>
+  <p>Fourth Difference: React is a JavaScript Library while Angular is JavaScript Framework, this is a major difference because it explains the difference in what the two platforms are capable of doing and providing for a user.  </p>
+</div>
+
+  
+<button class="collapsible">5.Differentiate nextjs vs. meteorjs vs. expressjs  </button>
+<div class="content">
+  <p> 
+  Nextjs purpose is to build static websites that will require both a server side rendering and client side interactivity. </p>
+  <p>Meteorjs purpose is to create real time applications that work synchronously with the client and server without requiring external tools.</p>
+  <p>Express purpose is to create single page applications. </p>
+</div>
+
+<button class="collapsible">6.Task Runner  </button>
+<div class="content">
+  <p>
+Task runners are useful when programming, because they handle most of the repetive tasks during the development process. They are called from the command line. Two examples are Webpack and Grunt.    
+  </p>
+</div>
+
+<button class="collapsible">7.AJAX and XMLHttpRequest   </button>
+<div class="content">
+  <p> AJAX: This is a group of web techniques that allows data to be retrieved from a server without any work to be put in.</p>
+  <p>XMLHttpRequest Object: This is the core of AJAX and it deals with the HTTPrequests to a server that are made separately.
+  </p>
+  <p> 3 Properties: response, readyState, onreadystatechange</p>
+  <p>3 Methods of the XMLHttpRequest Object: send(data), send(),send(string)</p>
+</div>
+
+<button class="collapsible">8.Explain npm, npx, nvm,  package.json and package-lock.json files </button>
+<div class="content">
+  <p>npm: This is the default package manager for Node.js and it is mainly used in the command line to install other packages on ones machine. </p>
+  <p>npx: This is a command line tool that allows you to run commands within the node.js and other locally installed packages without installing them globally. It mainly sneaks through the packages and retrievs th specfic command you would like to run without having to download the entire package. </p>
+  <p>nvm: This tool allows one to manage multiple versions of Node.js on your machine.</p>
+  <p>package.json: This is the file located in the root of a JavaScript project. The main purpose of it is to store the name of the project, the version, and the scripts.</p>
+  <p>package-lock.json: This provides detailed descriptions of the packages that are being downloaded, including the versions and the dependencies.</p>
+</div>
+
+
+
+  <button class="collapsible">9.Differences among CSS, LESS, SASS </button>
+  <div class="content">
+    <p>
+      CSS is the standard stylesheet for html or xml programs. LESS and SASS are dynamic stylesheets that provide more ways to be creative in styling. LESS and SASS must be compiled through CSS. LESS and SASS have different syntaxes.
+    </p>
+  </div>
+
+  <button class="collapsible"> 10. backbone, ember, underscore, bootstrap  </button>
+  <div class="content">
+    <p>
+      Backbone: This is a javascript framework that creates structure for web applications 
+    </p>
+    <p>
+      Ember: This is a javascript framework that is used by much more ambitious developers for web applications
+    </p>
+    <p>
+      Underscore: This is a javascript library that provides helper functions that work well with other functions within javascript.
+    </p>
+    <p>
+      Bootstrap: This is a CSS, HTML, javascript framework used for creating mobile web projects.
+    </p>
+  </div>
+  
+  <button class="collapsible"> 11. Name 3 alternatives to tailwind and briefly compare them to tailwind </button>
+  <div class="content">
+    <p>
+Alternatives: Bootstrap, Bulma, and Foundation
+    </p>
+    <p>
+      These alternatives have the same purpose as Tailwind which is to provide more utilities for developers to style their applications. Tailwind has a lot of customization options has do the other alternatives which is how they are all capable of providing vast styling features within CSS. 
+    </p>
+  </div>
+
+<button class="collapsible">12.  Define the following concepts: nosql, Mongodb,  collection, document, rdbms, mysql, sql, MongoDB Query Language </button>
+  <div class="content">
+    <p>
+    nosql: This is a type of database management system that specializes in handling a lot of unstructured and semi structured data.
+    </p>
+    <p>
+      Mongodb: This is a open-source NoSql database that stores data in flexible documents so that it can allow evolving data schemas.
+    </p>
+    <p>
+      collection: This is a tool used within Mongodb that just groups Mongodb documents.
+    </p>
+    <p>
+      document: This is another tool used within Mongodb that just stores all data.
+    </p>
+    <p>
+      rdbms: This is a type of database management system that stores data in tables with predifined schemas.
+    </p>
+    <p>
+      mysql: This is a type of database management system that is mainly used for web applications. 
+    </p>
+    <p>
+      sql: This is a programming language that is used for managing relational databases 
+    </p>
+    <p>
+      MongoDB Query Language: This is another programming language that specifies in retrieving and manipulating data within Mongodb.
+    </p>
+  </div>
+
+  <button class="collapsible">  13.Explain Media Queries and viewport and grid layout </button>
+  <div class="content">
+    <p>
+      Media Queries: This is a CSS feature that allows developers to apply different styles based on what device the user is using.
+    </p>
+    <p>
+      Viewport: This is the portion of the web page that the viewer sees.
+    </p>
+    <p>
+      Grid Layout: This is a CSS module that allows for the developer to create complex and responsive grid layout in a webpage.
+    </p>
+  </div>
+
+<button class="collapsible"> 14. What are data-attributes? </button>
+  <div class="content">
+    <p>
+      Data attributes are features in HTML that allow programmers to store custom data within HTML elements.
+    </p>
+  </div>
+
+  <button class="collapsible"> 15. Briefly describe  4 popular template engines or libraries. </button>
+  <div class="content">
+    <p>
+      Handlebar: This is a JavaScript template engine that provides a simple syntax for creating reusable templates.
+    </p>
+    <p>
+      Mustache: This is a JavaScript template engine that creates templates for a variety of  programming languages.
+    </p>
+    <p>
+      Pug: This is a JavaScript template engine that uses indentation syntax to create templates.
+    </p>
+    <p>
+      EJS: This is a Node.js template engine that allows JavaScript code within HTML templates. 
+    </p>
+  </div>
+
+  <button class="collapsible"> 16. Asynchronous, await, vs. synchronous, blocking calls vs. noblocking calls </button>
+  <div class="content">
+    <p>
+      Synchronous programming goes through a sequence and it only moves forward once one sequence is complete. Asyncrhonous allows for multiple operations to execute without there being an issue.
+    </p>
+    <p>
+      blocking calls works with synchronous programming by stopping the operations so that the sequence could be executed one at a time. Non blocking calls works with asynchronous programming where non blocking calls are put into place to ensure that program continues to run without waiting for each operation to execute.
+    </p>
+  </div>
+
+<button class="collapsible"> 17. HTTP protocols, methods, request and reponse messages, and message header fields </button>
+  <div class="content">
+    <p>
+      HTTP Protocols: This allows communication between the web servers and web browsers.
+    </p>
+    <p>
+      Methods: These are the various methods that can be used depending on what the developer would like to do with the data.
+    </p>
+    <p>
+      Request and Response Messages: Request is sent to a server from a client requesting specific resources, and a response is sent by the server in response to the client.
+    </p>
+    <p>
+      Message Header Fields: This provides more information about the request or the response that was given. 
+    </p>
+  </div>
+
+<button class="collapsible"> 18. Define the following: restful services, restful API endpoints, routing, restful, restful api, restful service,client, clean url, resource and endpoints  </button>
+  <div class="content">
+    <p>
+      Restful Services: These are web services that adhere to a specific architectural style for web app development. 
+    </p>
+    <p>
+      Restful API endpoints: This represents specific URLs and URIs that clients can access
+    </p>
+    <p>
+      Routing: This is just the process of showing where request are coming from and what th specific things they need. 
+    </p>
+    <p>
+      Restful: This is an architctural style for designing web applications.
+    </p>
+    <p>
+      Restful api: This is a guideline that allows software applications to communicate with one another.
+    </p>
+    <p>
+      Client: This is the formal word for software application or device. 
+    </p>
+    <p>
+      clean url: This just eliminates any of the parameters that are not really required in a URL.
+    </p>
+    <p>
+      resource: This is data that the API reveals
+    </p>
+  </div>
+
+  <button class="collapsible"> 19. OAuth1 vs Oauth2? </button>
+  <div class="content">
+    <p>
+      OAuth1 does not separate the roles of the resource server meanwhile Oauth2 does. This is the main reason why they don't have backwards compatability which is a major difference between them. 
+    </p>
+  </div>
+
+  <button class="collapsible"> 20. Express </button>
+  <div class="content">
+    <p>
+      Express: This is a node.js framework used for web applications. 
+    </p>
+    <p>
+      Express Routing: This is the process of creating routes for specific functions so that they can handle new requsts for web applications. 
+    </p>
+    <p>
+      Express Middleware: This is the process of the set functions being executed in request response cycle of an Express application.
+    </p>
+  </div>
+
+  <button class="collapsible"> 21.Mounting, Updating, and Unmounting </button>
+  <div class="content">
+    <p>
+    Mounting: This phase occurs when a component is created and inserted into the DOM.
+    </p>
+    <p>
+      Updating: This phase occurs when a component is changed because of its state.
+    </p>
+    <p>
+      Unmounting:This phase occurs when a component is being removed from the DOM.
+    </p>
+  </div>
+
+  <button class="collapsible"> 22. What is same-origin policy? </button>
+  <div class="content">
+    <p>
+        This is a security feature for web browsers to prevent web pages from making requests to a different domain.
+    </p>
+  </div>
+
+  <button class="collapsible"> 23. Compound Selector and Attribute Selector. 8 other selectors for a web applications.</button>
+  <div class="content">
+    <p>
+        Compound Selector: This selector allows the combination of simple selectors, and the combination will create a new selector that focuses on a specific element or a group of elements.
+    </p>
+    <p>
+      Attribute Selector: This selector allows you to target elements based on value.
+    </p>
+    <p>
+      8 Other selectors: General Sibiling Selector, ID Selector, Class Selector,Desecendant Selector, Child Selector, Adjacent Sibling Selector, Pseudo- Class Selector, Pseudo- Element Selector.
+    </p>
+  </div>
+
+ <button class="collapsible"> 24. What is EJSON? </button>
+  <div class="content">
+    <p>
+        This is a data interchange format that is just an extension of what JSON can already do. It contains more data types and features.
+    </p>
+  </div>
+
+<button class="collapsible"> 25. vanilla JS, jquery vs. jqueryUI </button>
+  <div class="content">
+    <p>
+        Vanilla JS: This is when a programmer is using plain javascript without any additional frameworks or libraries. 
+    </p>
+    <p>
+        There is not a true definite to which is better, they just have different purposes. JqueryUI focuses more on User Interfaces hence the name, and Jquery just focuses on the general aspect of event handling. 
+    </p>
+  </div>
+  
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+
+
+
+
+</body>
+</html>
